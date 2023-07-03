@@ -1,0 +1,39 @@
+.Card {
+    width: 75%;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.Card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1rem;
+}
+
+.Card img {
+    width: 200px;
+    height: 250px;
+
+    border-radius: 10px;
+}
+
+.Card--country {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.Card--country-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5px;
+}
+
+.Card--title {
+    margin-bottom: 1rem;
+}
